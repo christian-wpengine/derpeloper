@@ -15,7 +15,7 @@ jobs:
     - name: GitHub Deploy to WP Engine
       uses: wpengine/github-action-wpe-site-deploy@main
       env: 
-          WPE_ENV_NAME: yoursitename 
+          WPE_ENV_NAME: derpeloper 
           WPE_SSHG_KEY_PUBLIC: ${{ secrets.PUBLIC_KEY_NAME }} 
           WPE_SSHG_KEY_PRIVATE: ${{ secrets.PRIVATE_KEY_NAME }} 
           TPO_SRC_PATH: ""
